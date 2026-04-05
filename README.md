@@ -70,9 +70,7 @@
   </a>
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=azmatsiddique&theme=radical&no-bg=true&no-frame=true" alt="Trophy"/>
-</div>
+
 
 ---
 
