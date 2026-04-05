@@ -5,14 +5,14 @@
 
 <!-- TYPING ANIMATION -->
 <a href="https://github.com/azmatsiddique">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F7971E&center=true&vCenter=true&repeat=true&width=900&height=45&lines=7%2B+years+in+Big+Data%2C+Spark%2C+AWS%2C+GCP+%26+Airflow%3BBuilding+Scalable+AI+%26+LLM+solutions+at+Publicis+Sapient%3BStanford+ML+Certified+%7C+Apache+Airflow+Certified" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=ABD200&center=true&vCenter=true&repeat=true&width=900&height=45&lines=7%2B+years+in+Big+Data%2C+Spark%2C+AWS%2C+GCP+%26+Airflow%3BBuilding+Scalable+AI+%26+LLM+solutions+at+Publicis+Sapient%3BStanford+ML+Certified+%7C+Apache+Airflow+Certified" alt="Typing SVG" />
 </a>
 
 <!-- PROFILE BADGES -->
 <p>
-  <img src="https://img.shields.io/badge/Focus-Senior_Data_%26_AI-f7971e?style=for-the-badge" alt="focus"/>
-  <img src="https://img.shields.io/badge/7%2B_Years-Big_Data_%26_AI-f7971e?style=for-the-badge" alt="years"/>
-  <img src="https://komarev.com/ghpvc/?username=azmatsiddique&style=for-the-badge&color=f7971e" alt="views"/>
+  <img src="https://img.shields.io/badge/Focus-Module_Lead_%26_AI-abd200?style=for-the-badge" alt="focus"/>
+  <img src="https://img.shields.io/badge/7%2B_Years-Big_Data_%26_AI-abd200?style=for-the-badge" alt="years"/>
+  <img src="https://komarev.com/ghpvc/?username=azmatsiddique&style=for-the-badge&color=abd200" alt="views"/>
 </p>
 
 <!-- SOCIAL LINKS -->
@@ -28,7 +28,7 @@
 
 ## 👨‍💻 About Me
 
-🏢 **Senior Associate Consultant @ Publicis Sapient**
+🏢 **Module Lead Software Engineer @ Impetus Technologies**
 
 📍 **Gurugram, Haryana, India**
 
@@ -60,12 +60,14 @@
 ## 🔥 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=azmatsiddique&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=f7971e&icon_color=f7971e&text_color=ffffff&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=azmatsiddique&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=f7971e&text_color=ffffff" />
+  <img height="180em" src="https://azmat-stats-github.vercel.app/api?username=azmatsiddique&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=abd200&icon_color=abd200&text_color=ffffff&count_private=true" />
+  <img height="180em" src="https://azmat-stats-github.vercel.app/api/top-langs?username=azmatsiddique&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=abd200&text_color=ffffff" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=azmatsiddique&theme=radical&hide_border=true" alt="GitHub streak"/>
+  <a href="https://git.io/streak-stats">
+    <img src="http://github-readme-streak-stats.herokuapp.com?user=azmatsiddique&theme=radical&hide_border=true" alt="GitHub Streak"/>
+  </a>
 </div>
 
 <div align="center">
@@ -166,7 +168,8 @@
 
 | 🏢 Company | 💼 Role | 📅 Duration |
 |:----------:|:-------:|:-----------:|
-| **Publicis Sapient** | Senior Associate Consultant | Apr 2024 – Present |
+| **Impetus Technologies** | Module Lead Software Engineer | Dec 2025 – Present |
+| **Publicis Sapient** | Senior Associate Consultant | Apr 2024 – Dec 2025 |
 | **Moody's Ratings** | Software Engineer | Mar 2023 – Mar 2024 |
 | **Capgemini** | Associate Consultant | Jul 2021 – Mar 2023 |
 | **KVCH** | Data Engineer | Jan 2019 – Jun 2021 |
@@ -248,7 +251,7 @@
 <table>
 <tr>
 <td align="center">
-  <img src="https://img.shields.io/badge/📦_Big_Data-7%2B_Years-f7971e?style=for-the-badge" alt="BigData"/>
+  <img src="https://img.shields.io/badge/📦_Big_Data-7%2B_Years-abd200?style=for-the-badge" alt="BigData"/>
 </td>
 <td align="center">
   <img src="https://img.shields.io/badge/🤖_Gen_AI-Active-green?style=for-the-badge" alt="GenAI"/>
@@ -281,7 +284,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:f7971e,100:0d1117&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:abd200,100:0d1117&height=120&section=footer" width="100%"/>
 
 **⭐ From [Azmat](https://github.com/azmatsiddique) with ❤️**
 
