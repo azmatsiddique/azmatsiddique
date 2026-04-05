@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohd Azmat Siddique | Senior Data & AI Engineer</title>
+
+  <!-- SEO & Social -->
+  <meta name="description" content="Mohd Azmat Siddique — Senior Data & AI Engineer. Apache Spark, PySpark, AWS, GCP, Airflow, Databricks, LLMs, SageMaker, Bedrock. Open to collaboration." />
+  <meta property="og:title" content="Mohd Azmat Siddique | Senior Data & AI Engineer" />
+  <meta property="og:description" content="7+ years in Big Data, Spark, AWS, GCP, Airflow. Building scalable AI & LLM solutions at Publicis Sapient." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://azmatsiddique.github.io" />
+  <meta property="og:site_name" content="Mohd Azmat Siddique" />
+  <meta name="theme-color" content="#0d1117" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --text: #c9d1d9;
+      --heading: #ffffff;
+      --accent: #f7971e;
+      --accent2: #ffd200;
+      --border: #30363d;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    a:focus { outline: 2px solid var(--accent2); outline-offset: 2px; }
+
+    header, main, footer { max-width: 1200px; margin: auto; padding: 1.5rem; }
+
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: -999px;
+      background: #fff;
+      color: #000;
+      padding: .5rem .75rem;
+      z-index: 100;
+    }
+    .skip-link:focus { left: 1rem; top: 1rem; }
+
+    h1, h2, h3 { color: var(--heading); margin-top: 2rem; }
+    h2 { border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+
+    section { padding: 2rem 0; }
+
+    .center { text-align: center; }
+
+    .badges img, .social img { margin: 0.3rem; display: inline-block; vertical-align: middle; }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #1f2937;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.25rem 0.6rem;
+      font-size: 0.82rem;
+      margin: 0.2rem;
+      font-family: 'Fira Code', monospace;
+      color: var(--accent);
+    }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid var(--border); padding: 0.7rem; text-align: center; }
+    th { background: #0f172a; color: var(--heading); }
+
+    .timeline {
+      position: relative;
+      padding-left: 2rem;
+      margin-top: 1.5rem;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0.5rem;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: var(--border);
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 2rem;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -1.625rem;
+      top: 0.4rem;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--bg);
+    }
+    .timeline-role { font-weight: 700; color: var(--heading); font-size: 1rem; }
+    .timeline-company { color: var(--accent); font-weight: 600; }
+    .timeline-date { font-size: 0.85rem; color: #8b949e; margin-top: 0.1rem; }
+    .timeline-desc { margin-top: 0.5rem; font-size: 0.9rem; }
+
+    .cert-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      margin: 0.4rem;
+      font-size: 0.9rem;
+    }
+    .cert-badge span { color: var(--accent); font-weight: 600; }
+
+    footer { text-align: center; padding-bottom: 2rem; font-size: 0.9rem; }
+
+    .glow { text-shadow: 0 0 20px rgba(247, 151, 30, 0.5); }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 1.4rem; }
+      .card { padding: 1rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="center" role="banner" aria-label="Site header">
+    <img
+      src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:f7971e,100:0d1117&height=200&section=header&text=Mohd%20Azmat%20Siddique&fontSize=45&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Senior%20Data%20%26%20AI%20Engineer&descAlignY=55&descSize=20"
+      style="width:100%;height:auto;display:block;"
+      loading="eager"
+      aria-hidden="true"
+    />
+
+    <h1 style="margin: 0.8rem 0 0.2rem 0;" class="glow">Mohd Azmat Siddique</h1>
+    <p style="margin: 0;">Senior Data &amp; AI Engineer — Spark · Airflow · LLMs · AWS · GCP</p>
+  </header>
+
+  <main id="main-content" role="main">
+
+    <!-- INTRO -->
+    <section class="center" aria-labelledby="intro-heading">
+      <a href="https://github.com/azmatsiddique" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <img
+          src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F7971E&center=true&vCenter=true&repeat=true&width=900&height=45&lines=7%2B+years+in+Big+Data%2C+Spark%2C+AWS%2C+GCP+%26+Airflow%3BBuilding+Scalable+AI+%26+LLM+solutions+at+Publicis+Sapient%3BStanford+ML+Certified+%7C+Apache+Airflow+Certified"
+          alt="Typing animation"
+          style="max-width:100%;height:auto;"
+          loading="lazy"
+        />
+      </a>
+
+      <div class="badges" style="margin-top:1rem;">
+        <img src="https://img.shields.io/badge/Focus-Senior_Data_%26_AI-f7971e?style=for-the-badge" alt="Focus badge" loading="lazy"/>
+        <img src="https://img.shields.io/badge/7%2B_Years-Big_Data_%26_AI-f7971e?style=for-the-badge" alt="7+ years badge" loading="lazy"/>
+        <img src="https://komarev.com/ghpvc/?username=azmatsiddique&style=for-the-badge&color=f7971e" alt="Profile visits" loading="lazy"/>
+      </div>
+
+      <div class="social" role="navigation" aria-label="Social links" style="margin-top:0.8rem;">
+        <a href="https://www.linkedin.com/in/azmatsiddique" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" loading="lazy"/>
+        </a>
+        <a href="/cdn-cgi/l/email-protection#6e0f14030f1a311d070a0a071f1b0b2e070d02011b0a400d0103" aria-label="Email">
+          <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Email badge" loading="lazy"/>
+        </a>
+        <a href="/cdn-cgi/l/email-protection#d0b1aabdb1a4fea3b9b4b4b9a1a5b5fee9e890b7bdb1b9bcfeb3bfbd" aria-label="Gmail">
+          <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail badge" loading="lazy"/>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">👨‍💻 About Me</h2>
+      <div class="card">
+        <p>🏢 <strong>Senior Associate Consultant @ Publicis Sapient</strong></p>
+        <p>📍 <strong>Gurugram, Haryana, India</strong></p>
+        <p>💼 <strong>7+ years in Big Data, Data Engineering &amp; AI</strong></p>
+        <p>🔭 Working on <strong>LLMs, Generative AI, Intelligent Search &amp; Agentic AI</strong></p>
+        <p>💬 Ask me about <strong>Apache Spark, PySpark, AWS, GCP, Airflow, Databricks, LLMs, SageMaker &amp; Bedrock</strong></p>
+        <p>🎓 <strong>Stanford ML Certified · Apache Airflow DAG Authoring · Intelligent Search Technical Expert · AWS ML (SageMaker) · Professional Data Engineer</strong></p>
+        <p>📝 Published researcher in <strong>Data Migration &amp; Data Engineering Productivity</strong></p>
+        <p>⭐ GitHub: <a href="https://github.com/azmatsiddique" target="_blank" rel="noopener noreferrer">github.com/azmatsiddique →</a></p>
+      </div>
+    </section>
+
+    <!-- GITHUB ANALYTICS -->
+    <section class="center" aria-labelledby="github-heading">
+      <h2 id="github-heading">🔥 GitHub Analytics</h2>
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=azmatsiddique&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=f7971e&icon_color=f7971e&text_color=ffffff&count_private=true"
+        alt="GitHub stats card"
+        height="180"
+        style="max-width:100%;height:auto;"
+        loading="lazy"
+      />
+      <img
+        src="https://github-readme-stats.vercel.app/api/top-langs?username=azmatsiddique&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=f7971e&text_color=ffffff"
+        alt="Top languages card"
+        height="180"
+        style="max-width:100%;height:auto;"
+        loading="lazy"
+      />
+      <br/><br/>
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=azmatsiddique&theme=radical&hide_border=true" alt="GitHub streak" loading="lazy"/>
+    </section>
+
+    <!-- TECH STACK -->
+    <section aria-labelledby="stack-heading">
+      <h2 id="stack-heading">🛠️ Tech Stack</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>📊 Big Data & Data Engineering</h3>
+          <span class="tag">Apache Spark</span>
+          <span class="tag">PySpark</span>
+          <span class="tag">Apache Airflow</span>
+          <span class="tag">Databricks</span>
+          <span class="tag">Hadoop / HDFS</span>
+          <span class="tag">Apache Hive</span>
+          <span class="tag">Apache Kafka</span>
+          <span class="tag">Flume</span>
+          <span class="tag">Sqoop</span>
+          <span class="tag">HBase</span>
+          <span class="tag">ETL Pipelines</span>
+          <span class="tag">Batch & Streaming</span>
+        </div>
+        <div class="card">
+          <h3>🤖 AI, ML & Gen AI</h3>
+          <span class="tag">LLMs</span>
+          <span class="tag">Generative AI</span>
+          <span class="tag">AWS Bedrock</span>
+          <span class="tag">AWS SageMaker</span>
+          <span class="tag">Intelligent Search</span>
+          <span class="tag">AI Agents</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">Prompt Engineering</span>
+        </div>
+        <div class="card">
+          <h3>☁️ Cloud & DevOps</h3>
+          <span class="tag">AWS S3</span>
+          <span class="tag">AWS Glue</span>
+          <span class="tag">AWS EMR</span>
+          <span class="tag">AWS Athena</span>
+          <span class="tag">AWS Redshift</span>
+          <span class="tag">GCP</span>
+          <span class="tag">Jenkins</span>
+          <span class="tag">Git / GitHub</span>
+          <span class="tag">Jira</span>
+          <span class="tag">Linux</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">PyCharm</span>
+        </div>
+        <div class="card">
+          <h3>💻 Languages & Databases</h3>
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Spark SQL</span>
+          <span class="tag">HiveQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">HBase</span>
+          <span class="tag">Agile / Scrum</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">🏢 Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-role">Senior Associate Consultant</div>
+          <div class="timeline-company">Publicis Sapient</div>
+          <div class="timeline-date">Apr 2024 – Present · India</div>
+          <div class="timeline-desc">Driving scalable AI & data solutions, working on LLMs, Generative AI, and large-scale data engineering.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-role">Software Engineer</div>
+          <div class="timeline-company">Moody's Ratings</div>
+          <div class="timeline-date">Mar 2023 – Mar 2024 · Gurugram, India</div>
+          <div class="timeline-desc">Defined data governance, built data infrastructure, implemented data quality standards and monitoring systems, contributed to Data Mesh architecture.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-role">Associate Consultant</div>
+          <div class="timeline-company">Capgemini</div>
+          <div class="timeline-date">Jul 2021 – Mar 2023 · Gurugram, India</div>
+          <div class="timeline-desc">Led deduplication of customer records across Lines of Business; built Big Data solutions for banking analytics.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-role">Data Engineer</div>
+          <div class="timeline-company">KVCH</div>
+          <div class="timeline-date">Jan 2019 – Jun 2021 · Noida, India</div>
+          <div class="timeline-desc">Designed real-time and batch Big Data applications; set up AWS EC2 Hadoop clusters; built Kafka-based log ingestion pipelines to HDFS.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-role">Hadoop Developer</div>
+          <div class="timeline-company">TcsIon</div>
+          <div class="timeline-date">Jul 2018 – Dec 2018 · Noida, India</div>
+          <div class="timeline-desc">Developed Python Spark code for data parsing and cross-database migrations.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section aria-labelledby="certs-heading">
+      <h2 id="certs-heading">🎓 Certifications</h2>
+      <div class="card">
+        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin-bottom:1.2rem;">
+          <div class="cert-badge">☁️ <span>GCP</span> Professional Cloud Architect ×2</div>
+          <div class="cert-badge">📊 <span>GCP</span> Professional Data Engineer ×2</div>
+          <div class="cert-badge">🤖 <span>GCP</span> AI/ML Pre-sales Technical Expert</div>
+          <div class="cert-badge">📈 <span>GCP</span> Data Analytics Pre-sales Expert</div>
+          <div class="cert-badge">🔍 <span>GCP</span> Intelligent Search Expert</div>
+          <div class="cert-badge">🧠 <span>GCP</span> Build with Vertex Expert</div>
+          <div class="cert-badge">💬 <span>GCP</span> Gemini Enterprise Expert</div>
+          <div class="cert-badge">🚀 <span>GCP</span> App Modernization Expert</div>
+          <div class="cert-badge">🗄️ <span>GCP</span> Database Engineer Expert</div>
+          <div class="cert-badge">🌐 <span>GCP</span> Networking Pre-sales Expert</div>
+          <div class="cert-badge">🏗️ <span>GCP</span> Infrastructure Modernization Expert</div>
+          <div class="cert-badge">🔒 <span>GCP</span> Security Pre-sales Expert</div>
+          <div class="cert-badge">🏆 <span>Credly</span> Top Badge Earner 2024</div>
+          <div class="cert-badge">🎖️ <span>Airflow</span> DAG Authoring Certified</div>
+          <div class="cert-badge">🔬 <span>AWS</span> ML Algorithms in SageMaker</div>
+          <div class="cert-badge">🎓 <span>Stanford</span> Machine Learning</div>
+        </div>
+        <p style="text-align:center;margin:0;">
+          <a href="https://www.credly.com/users/azmat-siddique/badges" target="_blank" rel="noopener noreferrer"
+            style="display:inline-block;background:var(--accent);color:#000;font-weight:700;padding:0.5rem 1.2rem;border-radius:8px;font-size:0.9rem;">
+            🏅 View All Verified Badges on Credly →
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section aria-labelledby="pub-heading">
+      <h2 id="pub-heading">📚 Publications</h2>
+      <div class="card">
+        <ul style="padding-left:1.2rem;line-height:2;">
+          <li>Design Environment of Live Data Migration Database System</li>
+          <li>Live Data Migration Approach From Relational Tables To Schema-free with RDD</li>
+          <li>Enhancing Productivity in Data Engineering: Proven Strategies</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONNECT -->
+    <section class="center" aria-labelledby="connect-heading">
+      <h2 id="connect-heading">🤝 Let's Connect</h2>
+      <p>I'm always open to exciting collaborations in Data Engineering &amp; AI!</p>
+
+      <a href="https://www.linkedin.com/in/azmatsiddique" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" loading="lazy"/>
+      </a>
+      <a href="/cdn-cgi/l/email-protection#45243f2824311a362c21212c343020052c26292a30216b262a28" aria-label="Email">
+        <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Email badge" loading="lazy"/>
+      </a>
+      <a href="/cdn-cgi/l/email-protection#badbc0d7dbce94c9d3deded3cbcfdf948382faddd7dbd3d694d9d5d7" aria-label="Gmail">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail badge" loading="lazy"/>
+      </a>
+    </section>
+  </main>
+
+  <footer class="center" role="contentinfo">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:f7971e,100:0d1117&height=120&section=footer" alt="" width="100%" style="display:block;height:au
